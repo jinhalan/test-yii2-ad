@@ -4,18 +4,7 @@ RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
 
 RewriteCond $1 !^(index\.php|images|robots\.txt)
-RewriteRule ^(.*)$ index.php/$1 [L]
+rewritebase /
+RewriteRule ^(.*)$ index.php/$1 [R,L]
 
-<IfModule mod_expires>
-ExpiresActive On
-ExpiresDefault A86400
-<FilesMatch "\.(flv|ico|pdf|avi|mov|ppt|doc|mp3|mp4|wmv|wav)$">
-ExpiresDefault A9030400
-</FilesMatch>
-<FilesMatch "\.(jpg|jpeg|png|gif|swf)$">
-ExpiresDefault A604800
-</FilesMatch>
-<FilesMatch "\.(txt|xml|js|css)$">
-ExpiresDefault A10800
-</FilesMatch>
-</IfModule>
+XSendFile on

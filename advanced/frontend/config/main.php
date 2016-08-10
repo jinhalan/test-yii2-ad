@@ -15,7 +15,13 @@ return [
         'request' => [
             'csrfParam' => '_csrf-frontend',
 	        'enableCsrfValidation' => false,
+	        'parsers' => [
+				'application/json' => 'yii\web\JsonParser'
+	        ],
         ],
+	    'response' => [
+	    	'format' => 'html',
+	    ],
         'user' => [
             'identityClass' => 'common\models\User',
             'enableAutoLogin' => true,
