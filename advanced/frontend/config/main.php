@@ -30,6 +30,8 @@ return [
         'session' => [
             // this is the name of the session cookie used for login on the frontend
             'name' => 'advanced-frontend',
+
+	        //'class' => 'yii\web\DbSession',
         ],
         'log' => [
             'traceLevel' => YII_DEBUG ? 3 : 0,
@@ -41,7 +43,9 @@ return [
             ],
         ],
         'errorHandler' => [
-            'errorAction' => 'site/error',
+            'errorAction' => 'test/error',//不显示函数调用栈时执行
+	        //'maxSourceLines' => 10,
+	        //'exceptionView' => '@frontend/views/test/error.php'//自定义错误显示
         ],
         'urlManager' => [
             'enablePrettyUrl' => true,//两种路由模式

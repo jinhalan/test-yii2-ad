@@ -2,6 +2,7 @@
 namespace frontend\controllers;
 
 use Yii;
+use yii\base\ErrorException;
 use yii\web\Controller;
 
 /**
@@ -90,6 +91,58 @@ class TestController extends Controller
 
 		//return ['message' => 'hello world'];
 		return $this->render('response');//添加Pragma:no-cache
+	}
+
+	public function actionSession()
+	{
+		echo '<h3>session-生而不有，为而不恃，功成而弗居。夫唯弗居，是以不去。</h3>';
+
+		$session = Yii::$app->session;//session组件（yii\web\session）
+
+		//$session->open();
+
+		//session存储
+		//文件，数据表，缓存，redis，MongoDB
+
+		//Flash数据
+		//$session->setFlash('postDeleted', 'You have successfully deleted your post');
+		//echo $session->getFlash('postDeleted');
+		//$result = $session->hasFlash('postDeleted');
+		//var_dump($result);
+
+		/*Yii::$app->response->cookies->add(new \yii\web\Cookie([
+			'name' => 'language',
+			'value' => 'zh-CN',
+		]));*/
+		//setcookie('language', 'zh-CN');
+		//$cookies = Yii::$app->request->cookies;
+		//var_dump($cookies,$_COOKIE);
 
 	}
+
+	//使用错误操作
+	public function actions() {
+		return [
+			'error' => [
+				'class' => 'yii\web\ErrorAction',
+			],
+		];
+	}
+
+	public function actionShowError()
+	{
+		echo '<h3>error-上善若水，水善利万物而不争，处众人之所恶，故几于道</h3>';
+
+		//错误处理器（yii\web\errorHandler默认启用）：非致命->异常，显示函数调用栈
+
+		try {
+			10/0;
+		} catch (ErrorException $e) {//使用错误处理器
+			echo $e->getMessage();
+		}
+		//echo $A;//notice
+		//10/0;//warning
+	}
+	//public function actionError(){};//致命错误
 }
+//class TestController {}//编译错误Compile Error
