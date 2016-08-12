@@ -144,5 +144,22 @@ class TestController extends Controller
 		//10/0;//warning
 	}
 	//public function actionError(){};//致命错误
+
+	public function actionLog()
+	{
+		Yii::beginProfile('block1');
+
+		echo '<h3>log-金玉满堂，莫能之守</h3>';
+
+		$message = ['log1' => '金玉满堂，莫能之守'];
+
+		//日志消息：消息过滤，跟中级别，格式化，刷新导出（yii\log\Logger）
+		//Yii::trace('start calculating average revenue', __METHOD__);
+		//Yii::error($message);
+
+		//日志目标：数据库，邮箱，文件，系统日志
+
+		Yii::endProfile('block1');
+	}
 }
 //class TestController {}//编译错误Compile Error
