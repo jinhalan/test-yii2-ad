@@ -1,8 +1,11 @@
 <?php
 namespace frontend\controllers;
 
+use frontend\components\TestBehavior;
+use frontend\components\TestEvent;
 use Yii;
 use yii\base\ErrorException;
+use yii\base\Event;
 use yii\web\Controller;
 
 /**
@@ -161,5 +164,55 @@ class TestController extends Controller
 
 		Yii::endProfile('block1');
 	}
+
+	public function actionComponent()
+	{
+		//echo '<h3>功成身退，天之道</h3>';
+		//-----------------------------组件---------------------------
+		//yii\base\component类或其子类的实例：属性，事件，行为
+		//属性：getter，setter//$object->label = trim($label)
+
+		//-----------------------------事件---------------------------
+		$event = new TestEvent();//继承yii\base\Component
+
+		//存储匿名函数到变量
+		$anonymousFunction = function($event){
+			echo '成功触发事件：'.$event->name;
+			var_dump($event->data);
+			echo '（事件处理器2）<br/>';
+		};
+
+		//创建事件，附加事件处理器，传入参数，事件处理器顺序
+		$data = '功成身退，天之道';
+		$event->on(TestEvent::EVENT_HELLO, function($event){
+			echo '成功触发事件：'.$event->name.'（事件处理器1）<br/>';
+		});
+		$event->on(TestEvent::EVENT_HELLO, $anonymousFunction, $data);
+
+		//移除事件处理器
+		//$event->off(TestEvent::EVENT_HELLO, $anonymousFunction);
+
+		//触发事件
+		$event->bar();//调用yii\base\component::trigger()
+
+		//类级别事件（见TestEvent）
+
+		//全局事件（不详）
+
+		//-----------------------------行为---------------------------
+		//定义行为--附加行为--移除行为
+		echo '<br/>通过行为获取属性prop1：'.$this->prop1;
+		echo '<br/>通过行为获取属性prop2：'.$this->prop2;
+		//通过行为添加组件时间
+
+		//return $this->render('component');
+	}
+	public function behaviors()
+	{
+		return [
+			TestBehavior::className(),//匿名行为（vs命名行为）
+		];
+	}
+
 }
 //class TestController {}//编译错误Compile Error
