@@ -5,7 +5,7 @@ use frontend\components\TestBehavior;
 use frontend\components\TestEvent;
 use Yii;
 use yii\base\ErrorException;
-use yii\base\Event;
+use yii\db\Connection;
 use yii\web\Controller;
 
 /**
@@ -214,5 +214,63 @@ class TestController extends Controller
 		];
 	}
 
+	public function actionConfig()
+	{
+		echo '<h3>config-有之以为利，无之以为用</h3>';
+
+		//配置--配置格式：class,property,event,behavior--使用配置：createObject()
+		//应用--组件--小部件--配置文件--默认配置：在入口脚本Yii::$container->set()
+
+		//别名--定义别名--解析别名（跟别名，衍生别名）--使用别名（配置）--预定义别名--扩展别名
+
+		//类自动加载（composer）
+		//获取自动加载类（via静态方法）--实例化自动加载类--初始化或配置加载对象属性（类名-文件路径 映射,PSR-4标准）--注册自动加载函数（根据属性）
+
+		//引导启动（开始解析处理请求前预备环境）
+		//注册类文件自动加载器（入口脚本）--加载配置并创建应用主体实例
+
+		//依赖注入容器(container) _definitions,_params,$_singletons
+		//--创建一个DI容器
+		//--依赖注入（$container->set) 更新_definitions
+		//--开始实例化容器内容（$container->get）@1开始
+		//--分析类依赖单元（php 反射机制：ReflectionClass）
+		//--实例化依赖单元-创建一个引用（$_dependencies）
+		//--使用$_dependencies成功实例化容器内容 @1结束
+		//**解决依赖、实例化
+
+		Yii::$container->set('test2', 'frontend\controllers\Test2Controller');
+		$test2 = Yii::$container->get('test2');
+		//var_dump($test2->db);
+
+		//PHP5 的反射机制：通过构造函数分析类所依赖到单元
+		/*$reflection = new \ReflectionClass('frontend\controllers\Test2Controller');
+		$constructor = $reflection->getConstructor();
+		foreach ($constructor->getParameters() as $param) {
+			if ($param->isDefaultValueAvailable()) {
+
+			} else {
+				$c = $param->getClass();
+				var_dump($c);
+			}
+
+		}*/
+
+		//服务定位器（yii\di\ServiceLocator 实例：application对象）
+		//构建在DI容器之上，通过DI容器获取实例
+		//应用的本质：入口脚本？实例化(赋予Yii::$app)--run()...
+		var_dump(is_callable('frontend\controllers\Test2Controller', true));
+
+	}
+
 }
 //class TestController {}//编译错误Compile Error
+class Test2Controller extends Controller
+{
+	public $db;
+
+	public function __construct(Connection $a, $b = [])//构造函数--这个类依赖于 Connection
+	{
+		$this->db = $a;
+	}
+
+}
