@@ -6,6 +6,7 @@ use frontend\components\TestEvent;
 use Yii;
 use yii\base\ErrorException;
 use yii\db\Connection;
+use yii\db\Query;
 use yii\web\Controller;
 
 /**
@@ -203,7 +204,7 @@ class TestController extends Controller
 		//定义行为--附加行为--移除行为
 		echo '<br/>通过行为获取属性prop1：'.$this->prop1;
 		echo '<br/>通过行为获取属性prop2：'.$this->prop2;
-		//通过行为添加组件时间
+		//通过行为添加组件事件
 
 		//return $this->render('component');
 	}
@@ -260,6 +261,31 @@ class TestController extends Controller
 		//应用的本质：入口脚本？实例化(赋予Yii::$app)--run()...
 		var_dump(is_callable('frontend\controllers\Test2Controller', true));
 
+	}
+
+	public function actionDatabase()
+	{
+		echo '<h3>database-俗人昭昭，我独昏昏，俗人察察，我独闷闷</h3>';
+
+		//数据库连接方式：DAO（数据访问层）
+		//创建连接：dsn,username,password,charset
+		$db = Yii::$app->db;
+		//执行SQL语句
+		$count = $db->createCommand('SELECT COUNT(*) FROM user')
+					->queryScalar();
+		//查询构建器
+		$userId = '1 or user_id=2';//sql 注入
+		$query = new Query();
+		$res1 = $query->select(['user_id', 'user_name'])
+			->from(['user'])
+			->where(['user_id' => $userId])
+			//->createCommand()->sql;
+			->all();
+		$res2 = $db->createCommand('SELECT * FROM user WHERE user_id='.$userId)->queryAll();
+		var_dump($res1,$res2);
+
+		//Active Record 提供了一个面向对象接口
+		//数据库迁移
 	}
 
 }
