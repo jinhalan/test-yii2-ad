@@ -3,11 +3,13 @@ namespace frontend\controllers;
 
 use frontend\components\TestBehavior;
 use frontend\components\TestEvent;
+use frontend\models\TestGetData;
 use Yii;
 use yii\base\ErrorException;
 use yii\db\Connection;
 use yii\db\Query;
 use yii\web\Controller;
+use yii\web\UploadedFile;
 
 /**
  * Created by PhpStorm.
@@ -286,6 +288,40 @@ class TestController extends Controller
 
 		//Active Record 提供了一个面向对象接口
 		//数据库迁移
+	}
+
+	public function actionGetData()
+	{
+		$model = new TestGetData();
+
+		//异步调用：
+		//popen
+		/*$handle = popen('php C:\Users\lanjh\Desktop\www\test-yii2-ad\advanced\frontend\web\test.php', 'r');
+		pclose($handle);*/
+		//curl
+		$url = 'http://test.com/test.php';
+		$ch = curl_init($url);
+		curl_setopt($ch, CURLOPT_TIMEOUT, 1);
+		/*$curl_opt = array(CURLOPT_URL, 'http://test.com/test.php',
+			CURLOPT_RETURNTRANSFER, 1,
+			CURLOPT_TIMEOUT, 10,);
+		curl_setopt_array($ch, $curl_opt);*/
+		curl_exec($ch);//var_dump(curl_error($ch));exit;
+		curl_close($ch);
+
+		//创建表单
+		if ($model->load(Yii::$app->request->post(), 'TestGetData')) {print_r($_FILES);exit;
+			$model->validate();
+			//$model->uploadFile = UploadedFile::getInstanceByName('uploadFile');
+			var_dump($model->attributes);exit;
+		} else {
+			return $this->render('form', [
+				'model' => $model,
+			]);
+		}
+		//输入验证：声明验证规则-自定义错误信息-验证事件-条件式验证-数据预处理-临时验证-自定义验证器-推迟验证
+
+		//yii\widget\ActiveForm, yii\helpers\Html
 	}
 
 }
