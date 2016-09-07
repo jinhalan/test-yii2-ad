@@ -14,6 +14,6 @@ $config = yii\helpers\ArrayHelper::merge(//应用配置
     require(__DIR__ . '/../config/main.php'),
     require(__DIR__ . '/../config/main-local.php')
 );
-dd
+
 $application = new yii\web\Application($config);
 $application->run();

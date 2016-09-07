@@ -16143,3 +16143,958 @@ $_SERVER = [
     'REQUEST_TIME_FLOAT' => 1472800446.813
     'REQUEST_TIME' => 1472800446
 ]
+2016-09-05 10:38:57 [127.0.0.1][-][-][error][yii\base\ErrorException:8] exception 'yii\base\ErrorException' with message 'Use of undefined constant eixt - assumed 'eixt'' in C:\Users\lanjh\Desktop\www\test-yii2-ad\advanced\frontend\controllers\TestController.php:299
+Stack trace:
+#0 C:\Users\lanjh\Desktop\www\test-yii2-ad\advanced\vendor\yiisoft\yii2\base\InlineAction.php(55): ::call_user_func_array:{C:\Users\lanjh\Desktop\www\test-yii2-ad\advanced\vendor\yiisoft\yii2\base\InlineAction.php:55}()
+#1 C:\Users\lanjh\Desktop\www\test-yii2-ad\advanced\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams()
+#2 C:\Users\lanjh\Desktop\www\test-yii2-ad\advanced\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction()
+#3 C:\Users\lanjh\Desktop\www\test-yii2-ad\advanced\vendor\yiisoft\yii2\web\Application.php(87): yii\base\Module->runAction()
+#4 C:\Users\lanjh\Desktop\www\test-yii2-ad\advanced\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest()
+#5 C:\Users\lanjh\Desktop\www\test-yii2-ad\advanced\frontend\web\index.php(19): yii\base\Application->run()
+#6 {main}
+2016-09-05 10:38:57 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    'OUTFOX_SEARCH_USER_ID_NCOO' => '543502407.1064353'
+    'advanced-frontend' => 'tfrju8i1qtuvjtn7o6vl2goqg2'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'test.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => 'OUTFOX_SEARCH_USER_ID_NCOO=543502407.1064353; advanced-frontend=tfrju8i1qtuvjtn7o6vl2goqg2'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;D:\\Program Files (x86)\\Bitvise SSH Client;D:\\xampp\\php;C:\\Program Files\\nodejs\\;C:\\Program Files\\TortoiseSVN\\bin;C:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files (x86)\\Bitvise SSH Client;C:\\wamp\\bin\\php\\php5.5.12'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.9 (Win32) PHP/5.5.12 Server at test.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win32) PHP/5.5.12'
+    'SERVER_NAME' => 'test.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/Users/lanjh/Desktop/www/test-yii2-ad/advanced/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Users/lanjh/Desktop/www/test-yii2-ad/advanced/frontend/web'
+    'SERVER_ADMIN' => 'webmaster@test.com'
+    'SCRIPT_FILENAME' => 'C:/Users/lanjh/Desktop/www/test-yii2-ad/advanced/frontend/web/index.php'
+    'REMOTE_PORT' => '59805'
+    'REDIRECT_URL' => '/test/get-data'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/test/get-data'
+    'SCRIPT_NAME' => '/index.php'
+    'PATH_INFO' => '/test/get-data'
+    'PATH_TRANSLATED' => 'redirect:\\index.php\\test\\get-data\\get-data'
+    'PHP_SELF' => '/index.php/test/get-data'
+    'REQUEST_TIME_FLOAT' => 1473064737.109
+    'REQUEST_TIME' => 1473064737
+]
+2016-09-05 10:41:15 [127.0.0.1][-][-][error][yii\base\ErrorException:8] exception 'yii\base\ErrorException' with message 'Use of undefined constant WEBROOT - assumed 'WEBROOT'' in C:\Users\lanjh\Desktop\www\test-yii2-ad\advanced\frontend\controllers\TestController.php:299
+Stack trace:
+#0 C:\Users\lanjh\Desktop\www\test-yii2-ad\advanced\vendor\yiisoft\yii2\base\InlineAction.php(55): ::call_user_func_array:{C:\Users\lanjh\Desktop\www\test-yii2-ad\advanced\vendor\yiisoft\yii2\base\InlineAction.php:55}()
+#1 C:\Users\lanjh\Desktop\www\test-yii2-ad\advanced\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams()
+#2 C:\Users\lanjh\Desktop\www\test-yii2-ad\advanced\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction()
+#3 C:\Users\lanjh\Desktop\www\test-yii2-ad\advanced\vendor\yiisoft\yii2\web\Application.php(87): yii\base\Module->runAction()
+#4 C:\Users\lanjh\Desktop\www\test-yii2-ad\advanced\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest()
+#5 C:\Users\lanjh\Desktop\www\test-yii2-ad\advanced\frontend\web\index.php(19): yii\base\Application->run()
+#6 {main}
+2016-09-05 10:41:14 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    'OUTFOX_SEARCH_USER_ID_NCOO' => '543502407.1064353'
+    'advanced-frontend' => 'tfrju8i1qtuvjtn7o6vl2goqg2'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'test.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => 'OUTFOX_SEARCH_USER_ID_NCOO=543502407.1064353; advanced-frontend=tfrju8i1qtuvjtn7o6vl2goqg2'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;D:\\Program Files (x86)\\Bitvise SSH Client;D:\\xampp\\php;C:\\Program Files\\nodejs\\;C:\\Program Files\\TortoiseSVN\\bin;C:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files (x86)\\Bitvise SSH Client;C:\\wamp\\bin\\php\\php5.5.12'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.9 (Win32) PHP/5.5.12 Server at test.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win32) PHP/5.5.12'
+    'SERVER_NAME' => 'test.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/Users/lanjh/Desktop/www/test-yii2-ad/advanced/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Users/lanjh/Desktop/www/test-yii2-ad/advanced/frontend/web'
+    'SERVER_ADMIN' => 'webmaster@test.com'
+    'SCRIPT_FILENAME' => 'C:/Users/lanjh/Desktop/www/test-yii2-ad/advanced/frontend/web/index.php'
+    'REMOTE_PORT' => '59833'
+    'REDIRECT_URL' => '/test/get-data'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/test/get-data'
+    'SCRIPT_NAME' => '/index.php'
+    'PATH_INFO' => '/test/get-data'
+    'PATH_TRANSLATED' => 'redirect:\\index.php\\test\\get-data\\get-data'
+    'PHP_SELF' => '/index.php/test/get-data'
+    'REQUEST_TIME_FLOAT' => 1473064874.96
+    'REQUEST_TIME' => 1473064874
+]
+2016-09-06 05:50:09 [127.0.0.1][-][-][error][yii\base\ErrorException:2] exception 'yii\base\ErrorException' with message 'file_put_contents() expects at least 2 parameters, 1 given' in C:\Users\lanjh\Desktop\www\test-yii2-ad\advanced\frontend\controllers\TestController.php:327
+Stack trace:
+#0 C:\Users\lanjh\Desktop\www\test-yii2-ad\advanced\vendor\yiisoft\yii2\base\InlineAction.php(55): frontend\controllers\TestController->actionGetData()
+#1 C:\Users\lanjh\Desktop\www\test-yii2-ad\advanced\vendor\yiisoft\yii2\base\InlineAction.php(55): ::call_user_func_array:{C:\Users\lanjh\Desktop\www\test-yii2-ad\advanced\vendor\yiisoft\yii2\base\InlineAction.php:55}()
+#2 C:\Users\lanjh\Desktop\www\test-yii2-ad\advanced\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams()
+#3 C:\Users\lanjh\Desktop\www\test-yii2-ad\advanced\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction()
+#4 C:\Users\lanjh\Desktop\www\test-yii2-ad\advanced\vendor\yiisoft\yii2\web\Application.php(87): yii\base\Module->runAction()
+#5 C:\Users\lanjh\Desktop\www\test-yii2-ad\advanced\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest()
+#6 C:\Users\lanjh\Desktop\www\test-yii2-ad\advanced\frontend\web\index.php(19): yii\base\Application->run()
+#7 {main}
+2016-09-06 05:50:09 [127.0.0.1][-][-][info][application] $_POST = [
+    'TestGetData' => [
+        'username' => ''
+        'password' => ''
+        'email' => ''
+        'items' => ''
+        'category' => 'a'
+        'country' => ''
+    ]
+]
+
+$_FILES = [
+    'TestGetData' => [
+        'name' => [
+            'uploadFile' => [
+                0 => ''
+            ]
+        ]
+        'type' => [
+            'uploadFile' => [
+                0 => ''
+            ]
+        ]
+        'tmp_name' => [
+            'uploadFile' => [
+                0 => ''
+            ]
+        ]
+        'error' => [
+            'uploadFile' => [
+                0 => 4
+            ]
+        ]
+        'size' => [
+            'uploadFile' => [
+                0 => 0
+            ]
+        ]
+    ]
+]
+
+$_COOKIE = [
+    'OUTFOX_SEARCH_USER_ID_NCOO' => '543502407.1064353'
+    'advanced-frontend' => 'h6n1mgff17eb28b00lollek667'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'test.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '851'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ORIGIN' => 'http://test.com'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36'
+    'CONTENT_TYPE' => 'multipart/form-data; boundary=----WebKitFormBoundarysMYH03NB8U2feaTz'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://test.com/test/get-data'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => 'OUTFOX_SEARCH_USER_ID_NCOO=543502407.1064353; advanced-frontend=h6n1mgff17eb28b00lollek667'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;D:\\Program Files (x86)\\Bitvise SSH Client;D:\\xampp\\php;C:\\Program Files\\nodejs\\;C:\\Program Files\\TortoiseSVN\\bin;C:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files (x86)\\Bitvise SSH Client;C:\\wamp\\bin\\php\\php5.5.12'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.9 (Win32) PHP/5.5.12 Server at test.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win32) PHP/5.5.12'
+    'SERVER_NAME' => 'test.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/Users/lanjh/Desktop/www/test-yii2-ad/advanced/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Users/lanjh/Desktop/www/test-yii2-ad/advanced/frontend/web'
+    'SERVER_ADMIN' => 'webmaster@test.com'
+    'SCRIPT_FILENAME' => 'C:/Users/lanjh/Desktop/www/test-yii2-ad/advanced/frontend/web/index.php'
+    'REMOTE_PORT' => '62072'
+    'REDIRECT_URL' => '/test/get-data'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/test/get-data'
+    'SCRIPT_NAME' => '/index.php'
+    'PATH_INFO' => '/test/get-data'
+    'PATH_TRANSLATED' => 'redirect:\\index.php\\test\\get-data\\get-data'
+    'PHP_SELF' => '/index.php/test/get-data'
+    'REQUEST_TIME_FLOAT' => 1473133809.708
+    'REQUEST_TIME' => 1473133809
+]
+2016-09-06 05:59:36 [127.0.0.1][-][-][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: Bad Request: Invalid JSON data in request body: Syntax error.
+2016-09-06 05:59:36 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    'OUTFOX_SEARCH_USER_ID_NCOO' => '543502407.1064353'
+    'advanced-frontend' => 'h6n1mgff17eb28b00lollek667'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'test.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '13'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_ORIGIN' => 'chrome-extension://aicmkgpgakddgnaphhhpliifpcfhicfo'
+    'CONTENT_TYPE' => 'application/json'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36'
+    'HTTP_POSTMAN_TOKEN' => 'e3ded295-e146-d942-b895-8fa45bbcf055'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => 'OUTFOX_SEARCH_USER_ID_NCOO=543502407.1064353; advanced-frontend=h6n1mgff17eb28b00lollek667'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;D:\\Program Files (x86)\\Bitvise SSH Client;D:\\xampp\\php;C:\\Program Files\\nodejs\\;C:\\Program Files\\TortoiseSVN\\bin;C:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files (x86)\\Bitvise SSH Client;C:\\wamp\\bin\\php\\php5.5.12'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.9 (Win32) PHP/5.5.12 Server at test.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win32) PHP/5.5.12'
+    'SERVER_NAME' => 'test.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/Users/lanjh/Desktop/www/test-yii2-ad/advanced/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Users/lanjh/Desktop/www/test-yii2-ad/advanced/frontend/web'
+    'SERVER_ADMIN' => 'webmaster@test.com'
+    'SCRIPT_FILENAME' => 'C:/Users/lanjh/Desktop/www/test-yii2-ad/advanced/frontend/web/index.php'
+    'REMOTE_PORT' => '62323'
+    'REDIRECT_URL' => '/test/get-data'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/test/get-data'
+    'SCRIPT_NAME' => '/index.php'
+    'PATH_INFO' => '/test/get-data'
+    'PATH_TRANSLATED' => 'redirect:\\index.php\\test\\get-data\\get-data'
+    'PHP_SELF' => '/index.php/test/get-data'
+    'REQUEST_TIME_FLOAT' => 1473134376.144
+    'REQUEST_TIME' => 1473134376
+]
+2016-09-06 05:59:52 [127.0.0.1][-][-][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: Bad Request: Invalid JSON data in request body: Syntax error.
+2016-09-06 05:59:51 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    'OUTFOX_SEARCH_USER_ID_NCOO' => '543502407.1064353'
+    'advanced-frontend' => 'h6n1mgff17eb28b00lollek667'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'test.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '143'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_ORIGIN' => 'chrome-extension://aicmkgpgakddgnaphhhpliifpcfhicfo'
+    'CONTENT_TYPE' => 'application/json'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36'
+    'HTTP_POSTMAN_TOKEN' => '15f26219-f292-743b-f24a-baf3a22516a3'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => 'OUTFOX_SEARCH_USER_ID_NCOO=543502407.1064353; advanced-frontend=h6n1mgff17eb28b00lollek667'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;D:\\Program Files (x86)\\Bitvise SSH Client;D:\\xampp\\php;C:\\Program Files\\nodejs\\;C:\\Program Files\\TortoiseSVN\\bin;C:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files (x86)\\Bitvise SSH Client;C:\\wamp\\bin\\php\\php5.5.12'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.9 (Win32) PHP/5.5.12 Server at test.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win32) PHP/5.5.12'
+    'SERVER_NAME' => 'test.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/Users/lanjh/Desktop/www/test-yii2-ad/advanced/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Users/lanjh/Desktop/www/test-yii2-ad/advanced/frontend/web'
+    'SERVER_ADMIN' => 'webmaster@test.com'
+    'SCRIPT_FILENAME' => 'C:/Users/lanjh/Desktop/www/test-yii2-ad/advanced/frontend/web/index.php'
+    'REMOTE_PORT' => '62324'
+    'REDIRECT_URL' => '/test/get-data'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/test/get-data'
+    'SCRIPT_NAME' => '/index.php'
+    'PATH_INFO' => '/test/get-data'
+    'PATH_TRANSLATED' => 'redirect:\\index.php\\test\\get-data\\get-data'
+    'PHP_SELF' => '/index.php/test/get-data'
+    'REQUEST_TIME_FLOAT' => 1473134391.975
+    'REQUEST_TIME' => 1473134391
+]
+2016-09-06 08:32:58 [127.0.0.1][-][-][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: Bad Request: Invalid JSON data in request body: Syntax error.
+2016-09-06 08:32:58 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    'OUTFOX_SEARCH_USER_ID_NCOO' => '543502407.1064353'
+    'advanced-frontend' => 'h6n1mgff17eb28b00lollek667'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'test.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '13'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_ORIGIN' => 'chrome-extension://aicmkgpgakddgnaphhhpliifpcfhicfo'
+    'CONTENT_TYPE' => 'application/json'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36'
+    'HTTP_POSTMAN_TOKEN' => 'f691ef5e-27aa-abec-0a06-f38dda1ac412'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => 'OUTFOX_SEARCH_USER_ID_NCOO=543502407.1064353; advanced-frontend=h6n1mgff17eb28b00lollek667'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;D:\\Program Files (x86)\\Bitvise SSH Client;D:\\xampp\\php;C:\\Program Files\\nodejs\\;C:\\Program Files\\TortoiseSVN\\bin;C:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files (x86)\\Bitvise SSH Client;C:\\wamp\\bin\\php\\php5.5.12'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.9 (Win32) PHP/5.5.12 Server at test.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win32) PHP/5.5.12'
+    'SERVER_NAME' => 'test.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/Users/lanjh/Desktop/www/test-yii2-ad/advanced/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Users/lanjh/Desktop/www/test-yii2-ad/advanced/frontend/web'
+    'SERVER_ADMIN' => 'webmaster@test.com'
+    'SCRIPT_FILENAME' => 'C:/Users/lanjh/Desktop/www/test-yii2-ad/advanced/frontend/web/index.php'
+    'REMOTE_PORT' => '62638'
+    'REDIRECT_URL' => '/test/get-data'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/test/get-data'
+    'SCRIPT_NAME' => '/index.php'
+    'PATH_INFO' => '/test/get-data'
+    'PATH_TRANSLATED' => 'redirect:\\index.php\\test\\get-data\\get-data'
+    'PHP_SELF' => '/index.php/test/get-data'
+    'REQUEST_TIME_FLOAT' => 1473143578.624
+    'REQUEST_TIME' => 1473143578
+]
+2016-09-06 08:33:55 [127.0.0.1][-][-][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: Bad Request: Invalid JSON data in request body: Syntax error.
+2016-09-06 08:33:55 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    'OUTFOX_SEARCH_USER_ID_NCOO' => '543502407.1064353'
+    'advanced-frontend' => 'h6n1mgff17eb28b00lollek667'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'test.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '143'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_ORIGIN' => 'chrome-extension://aicmkgpgakddgnaphhhpliifpcfhicfo'
+    'CONTENT_TYPE' => 'application/json'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36'
+    'HTTP_POSTMAN_TOKEN' => '649584ff-dd5c-e6c2-4608-183ffbcc0989'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => 'OUTFOX_SEARCH_USER_ID_NCOO=543502407.1064353; advanced-frontend=h6n1mgff17eb28b00lollek667'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;D:\\Program Files (x86)\\Bitvise SSH Client;D:\\xampp\\php;C:\\Program Files\\nodejs\\;C:\\Program Files\\TortoiseSVN\\bin;C:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files (x86)\\Bitvise SSH Client;C:\\wamp\\bin\\php\\php5.5.12'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.9 (Win32) PHP/5.5.12 Server at test.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win32) PHP/5.5.12'
+    'SERVER_NAME' => 'test.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/Users/lanjh/Desktop/www/test-yii2-ad/advanced/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Users/lanjh/Desktop/www/test-yii2-ad/advanced/frontend/web'
+    'SERVER_ADMIN' => 'webmaster@test.com'
+    'SCRIPT_FILENAME' => 'C:/Users/lanjh/Desktop/www/test-yii2-ad/advanced/frontend/web/index.php'
+    'REMOTE_PORT' => '62642'
+    'REDIRECT_URL' => '/test/get-data'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/test/get-data'
+    'SCRIPT_NAME' => '/index.php'
+    'PATH_INFO' => '/test/get-data'
+    'PATH_TRANSLATED' => 'redirect:\\index.php\\test\\get-data\\get-data'
+    'PHP_SELF' => '/index.php/test/get-data'
+    'REQUEST_TIME_FLOAT' => 1473143635.325
+    'REQUEST_TIME' => 1473143635
+]
+2016-09-06 08:35:36 [127.0.0.1][-][-][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: Bad Request: Invalid JSON data in request body: Syntax error.
+2016-09-06 08:35:36 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    'OUTFOX_SEARCH_USER_ID_NCOO' => '543502407.1064353'
+    'advanced-frontend' => 'h6n1mgff17eb28b00lollek667'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'test.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '143'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_ORIGIN' => 'chrome-extension://aicmkgpgakddgnaphhhpliifpcfhicfo'
+    'CONTENT_TYPE' => 'application/json'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36'
+    'HTTP_POSTMAN_TOKEN' => '0580f8ed-64de-73ce-7ee3-1da32d405382'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => 'OUTFOX_SEARCH_USER_ID_NCOO=543502407.1064353; advanced-frontend=h6n1mgff17eb28b00lollek667'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;D:\\Program Files (x86)\\Bitvise SSH Client;D:\\xampp\\php;C:\\Program Files\\nodejs\\;C:\\Program Files\\TortoiseSVN\\bin;C:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files (x86)\\Bitvise SSH Client;C:\\wamp\\bin\\php\\php5.5.12'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.9 (Win32) PHP/5.5.12 Server at test.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win32) PHP/5.5.12'
+    'SERVER_NAME' => 'test.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/Users/lanjh/Desktop/www/test-yii2-ad/advanced/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Users/lanjh/Desktop/www/test-yii2-ad/advanced/frontend/web'
+    'SERVER_ADMIN' => 'webmaster@test.com'
+    'SCRIPT_FILENAME' => 'C:/Users/lanjh/Desktop/www/test-yii2-ad/advanced/frontend/web/index.php'
+    'REMOTE_PORT' => '62654'
+    'REDIRECT_URL' => '/test/get-data'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/test/get-data'
+    'SCRIPT_NAME' => '/index.php'
+    'PATH_INFO' => '/test/get-data'
+    'PATH_TRANSLATED' => 'redirect:\\index.php\\test\\get-data\\get-data'
+    'PHP_SELF' => '/index.php/test/get-data'
+    'REQUEST_TIME_FLOAT' => 1473143736.781
+    'REQUEST_TIME' => 1473143736
+]
+2016-09-06 08:35:51 [127.0.0.1][-][-][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: Bad Request: Invalid JSON data in request body: Syntax error.
+2016-09-06 08:35:51 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    'OUTFOX_SEARCH_USER_ID_NCOO' => '543502407.1064353'
+    'advanced-frontend' => 'h6n1mgff17eb28b00lollek667'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'test.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '13'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_ORIGIN' => 'chrome-extension://aicmkgpgakddgnaphhhpliifpcfhicfo'
+    'CONTENT_TYPE' => 'application/json'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36'
+    'HTTP_POSTMAN_TOKEN' => 'c67e2b75-bd0b-8544-978e-1bd10e4603c5'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => 'OUTFOX_SEARCH_USER_ID_NCOO=543502407.1064353; advanced-frontend=h6n1mgff17eb28b00lollek667'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;D:\\Program Files (x86)\\Bitvise SSH Client;D:\\xampp\\php;C:\\Program Files\\nodejs\\;C:\\Program Files\\TortoiseSVN\\bin;C:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files (x86)\\Bitvise SSH Client;C:\\wamp\\bin\\php\\php5.5.12'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.9 (Win32) PHP/5.5.12 Server at test.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win32) PHP/5.5.12'
+    'SERVER_NAME' => 'test.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/Users/lanjh/Desktop/www/test-yii2-ad/advanced/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Users/lanjh/Desktop/www/test-yii2-ad/advanced/frontend/web'
+    'SERVER_ADMIN' => 'webmaster@test.com'
+    'SCRIPT_FILENAME' => 'C:/Users/lanjh/Desktop/www/test-yii2-ad/advanced/frontend/web/index.php'
+    'REMOTE_PORT' => '62655'
+    'REDIRECT_URL' => '/test/get-data'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/test/get-data'
+    'SCRIPT_NAME' => '/index.php'
+    'PATH_INFO' => '/test/get-data'
+    'PATH_TRANSLATED' => 'redirect:\\index.php\\test\\get-data\\get-data'
+    'PHP_SELF' => '/index.php/test/get-data'
+    'REQUEST_TIME_FLOAT' => 1473143751.333
+    'REQUEST_TIME' => 1473143751
+]
+2016-09-06 08:35:57 [127.0.0.1][-][-][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: Bad Request: Invalid JSON data in request body: Syntax error.
+2016-09-06 08:35:57 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    'OUTFOX_SEARCH_USER_ID_NCOO' => '543502407.1064353'
+    'advanced-frontend' => 'h6n1mgff17eb28b00lollek667'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'test.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '143'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_ORIGIN' => 'chrome-extension://aicmkgpgakddgnaphhhpliifpcfhicfo'
+    'CONTENT_TYPE' => 'application/json'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36'
+    'HTTP_POSTMAN_TOKEN' => 'd8b406cb-bf09-76e0-4780-82188f6233f2'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => 'OUTFOX_SEARCH_USER_ID_NCOO=543502407.1064353; advanced-frontend=h6n1mgff17eb28b00lollek667'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;D:\\Program Files (x86)\\Bitvise SSH Client;D:\\xampp\\php;C:\\Program Files\\nodejs\\;C:\\Program Files\\TortoiseSVN\\bin;C:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files (x86)\\Bitvise SSH Client;C:\\wamp\\bin\\php\\php5.5.12'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.9 (Win32) PHP/5.5.12 Server at test.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win32) PHP/5.5.12'
+    'SERVER_NAME' => 'test.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/Users/lanjh/Desktop/www/test-yii2-ad/advanced/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Users/lanjh/Desktop/www/test-yii2-ad/advanced/frontend/web'
+    'SERVER_ADMIN' => 'webmaster@test.com'
+    'SCRIPT_FILENAME' => 'C:/Users/lanjh/Desktop/www/test-yii2-ad/advanced/frontend/web/index.php'
+    'REMOTE_PORT' => '62656'
+    'REDIRECT_URL' => '/test/get-data'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/test/get-data'
+    'SCRIPT_NAME' => '/index.php'
+    'PATH_INFO' => '/test/get-data'
+    'PATH_TRANSLATED' => 'redirect:\\index.php\\test\\get-data\\get-data'
+    'PHP_SELF' => '/index.php/test/get-data'
+    'REQUEST_TIME_FLOAT' => 1473143757.228
+    'REQUEST_TIME' => 1473143757
+]
+2016-09-06 09:27:25 [127.0.0.1][-][-][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: Bad Request: Invalid JSON data in request body: Syntax error.
+2016-09-06 09:27:25 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    'OUTFOX_SEARCH_USER_ID_NCOO' => '543502407.1064353'
+    'advanced-frontend' => 'h6n1mgff17eb28b00lollek667'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'test.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '143'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_ORIGIN' => 'chrome-extension://aicmkgpgakddgnaphhhpliifpcfhicfo'
+    'CONTENT_TYPE' => 'application/json'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36'
+    'HTTP_POSTMAN_TOKEN' => 'bc4c63b4-a31f-9b8b-a130-67ed51e272eb'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => 'OUTFOX_SEARCH_USER_ID_NCOO=543502407.1064353; advanced-frontend=h6n1mgff17eb28b00lollek667'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;D:\\Program Files (x86)\\Bitvise SSH Client;D:\\xampp\\php;C:\\Program Files\\nodejs\\;C:\\Program Files\\TortoiseSVN\\bin;C:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files (x86)\\Bitvise SSH Client;C:\\wamp\\bin\\php\\php5.5.12'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.9 (Win32) PHP/5.5.12 Server at test.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win32) PHP/5.5.12'
+    'SERVER_NAME' => 'test.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/Users/lanjh/Desktop/www/test-yii2-ad/advanced/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Users/lanjh/Desktop/www/test-yii2-ad/advanced/frontend/web'
+    'SERVER_ADMIN' => 'webmaster@test.com'
+    'SCRIPT_FILENAME' => 'C:/Users/lanjh/Desktop/www/test-yii2-ad/advanced/frontend/web/index.php'
+    'REMOTE_PORT' => '63482'
+    'REDIRECT_URL' => '/test/get-data'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/test/get-data'
+    'SCRIPT_NAME' => '/index.php'
+    'PATH_INFO' => '/test/get-data'
+    'PATH_TRANSLATED' => 'redirect:\\index.php\\test\\get-data\\get-data'
+    'PHP_SELF' => '/index.php/test/get-data'
+    'REQUEST_TIME_FLOAT' => 1473146845.111
+    'REQUEST_TIME' => 1473146845
+]
+2016-09-07 04:31:31 [127.0.0.1][-][-][error][yii\base\ErrorException:8] exception 'yii\base\ErrorException' with message 'Undefined index: uploadFile' in C:\Users\lanjh\Desktop\www\test-yii2-ad\advanced\frontend\controllers\TestController.php:327
+Stack trace:
+#0 C:\Users\lanjh\Desktop\www\test-yii2-ad\advanced\vendor\yiisoft\yii2\base\InlineAction.php(55): ::call_user_func_array:{C:\Users\lanjh\Desktop\www\test-yii2-ad\advanced\vendor\yiisoft\yii2\base\InlineAction.php:55}()
+#1 C:\Users\lanjh\Desktop\www\test-yii2-ad\advanced\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams()
+#2 C:\Users\lanjh\Desktop\www\test-yii2-ad\advanced\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction()
+#3 C:\Users\lanjh\Desktop\www\test-yii2-ad\advanced\vendor\yiisoft\yii2\web\Application.php(87): yii\base\Module->runAction()
+#4 C:\Users\lanjh\Desktop\www\test-yii2-ad\advanced\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest()
+#5 C:\Users\lanjh\Desktop\www\test-yii2-ad\advanced\frontend\web\index.php(19): yii\base\Application->run()
+#6 {main}
+2016-09-07 04:31:31 [127.0.0.1][-][-][info][application] $_POST = [
+    'TestGetData' => [
+        'username' => ''
+        'password' => ''
+        'email' => ''
+        'items' => ''
+        'category' => 'a'
+        'country' => ''
+    ]
+]
+
+$_FILES = [
+    'TestGetData' => [
+        'name' => [
+            'uploadFile' => [
+                0 => '38499d7090bdf16791effb405ba0f70122e0d435.jpg'
+            ]
+        ]
+        'type' => [
+            'uploadFile' => [
+                0 => 'image/jpeg'
+            ]
+        ]
+        'tmp_name' => [
+            'uploadFile' => [
+                0 => 'C:\\wamp\\tmp\\php7BA6.tmp'
+            ]
+        ]
+        'error' => [
+            'uploadFile' => [
+                0 => 0
+            ]
+        ]
+        'size' => [
+            'uploadFile' => [
+                0 => 74886
+            ]
+        ]
+    ]
+]
+
+$_COOKIE = [
+    'OUTFOX_SEARCH_USER_ID_NCOO' => '543502407.1064353'
+    'advanced-frontend' => '0gjk5msn6cknbja7sm03r6t5k4'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'test.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '75767'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ORIGIN' => 'http://test.com'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36'
+    'CONTENT_TYPE' => 'multipart/form-data; boundary=----WebKitFormBoundary42A99kjnRv8JXGFB'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://test.com/test/get-data'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => 'OUTFOX_SEARCH_USER_ID_NCOO=543502407.1064353; advanced-frontend=0gjk5msn6cknbja7sm03r6t5k4'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;D:\\Program Files (x86)\\Bitvise SSH Client;D:\\xampp\\php;C:\\Program Files\\nodejs\\;C:\\Program Files\\TortoiseSVN\\bin;C:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files (x86)\\Bitvise SSH Client;C:\\wamp\\bin\\php\\php5.5.12'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.9 (Win32) PHP/5.5.12 Server at test.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win32) PHP/5.5.12'
+    'SERVER_NAME' => 'test.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/Users/lanjh/Desktop/www/test-yii2-ad/advanced/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Users/lanjh/Desktop/www/test-yii2-ad/advanced/frontend/web'
+    'SERVER_ADMIN' => 'webmaster@test.com'
+    'SCRIPT_FILENAME' => 'C:/Users/lanjh/Desktop/www/test-yii2-ad/advanced/frontend/web/index.php'
+    'REMOTE_PORT' => '49475'
+    'REDIRECT_URL' => '/test/get-data'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/test/get-data'
+    'SCRIPT_NAME' => '/index.php'
+    'PATH_INFO' => '/test/get-data'
+    'PATH_TRANSLATED' => 'redirect:\\index.php\\test\\get-data\\get-data'
+    'PHP_SELF' => '/index.php/test/get-data'
+    'REQUEST_TIME_FLOAT' => 1473215491.778
+    'REQUEST_TIME' => 1473215491
+]
+2016-09-07 04:31:46 [127.0.0.1][-][-][error][yii\base\ErrorException:8] exception 'yii\base\ErrorException' with message 'Undefined index: name' in C:\Users\lanjh\Desktop\www\test-yii2-ad\advanced\frontend\controllers\TestController.php:327
+Stack trace:
+#0 C:\Users\lanjh\Desktop\www\test-yii2-ad\advanced\vendor\yiisoft\yii2\base\InlineAction.php(55): ::call_user_func_array:{C:\Users\lanjh\Desktop\www\test-yii2-ad\advanced\vendor\yiisoft\yii2\base\InlineAction.php:55}()
+#1 C:\Users\lanjh\Desktop\www\test-yii2-ad\advanced\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams()
+#2 C:\Users\lanjh\Desktop\www\test-yii2-ad\advanced\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction()
+#3 C:\Users\lanjh\Desktop\www\test-yii2-ad\advanced\vendor\yiisoft\yii2\web\Application.php(87): yii\base\Module->runAction()
+#4 C:\Users\lanjh\Desktop\www\test-yii2-ad\advanced\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest()
+#5 C:\Users\lanjh\Desktop\www\test-yii2-ad\advanced\frontend\web\index.php(19): yii\base\Application->run()
+#6 {main}
+2016-09-07 04:31:46 [127.0.0.1][-][-][info][application] $_POST = [
+    'TestGetData' => [
+        'username' => ''
+        'password' => ''
+        'email' => ''
+        'items' => ''
+        'category' => 'a'
+        'country' => ''
+    ]
+]
+
+$_FILES = [
+    'TestGetData' => [
+        'name' => [
+            'uploadFile' => [
+                0 => '38499d7090bdf16791effb405ba0f70122e0d435.jpg'
+            ]
+        ]
+        'type' => [
+            'uploadFile' => [
+                0 => 'image/jpeg'
+            ]
+        ]
+        'tmp_name' => [
+            'uploadFile' => [
+                0 => 'C:\\wamp\\tmp\\phpB3ED.tmp'
+            ]
+        ]
+        'error' => [
+            'uploadFile' => [
+                0 => 0
+            ]
+        ]
+        'size' => [
+            'uploadFile' => [
+                0 => 74886
+            ]
+        ]
+    ]
+]
+
+$_COOKIE = [
+    'OUTFOX_SEARCH_USER_ID_NCOO' => '543502407.1064353'
+    'advanced-frontend' => '0gjk5msn6cknbja7sm03r6t5k4'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'test.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '75767'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ORIGIN' => 'http://test.com'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36'
+    'CONTENT_TYPE' => 'multipart/form-data; boundary=----WebKitFormBoundary42A99kjnRv8JXGFB'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://test.com/test/get-data'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => 'OUTFOX_SEARCH_USER_ID_NCOO=543502407.1064353; advanced-frontend=0gjk5msn6cknbja7sm03r6t5k4'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;D:\\Program Files (x86)\\Bitvise SSH Client;D:\\xampp\\php;C:\\Program Files\\nodejs\\;C:\\Program Files\\TortoiseSVN\\bin;C:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files (x86)\\Bitvise SSH Client;C:\\wamp\\bin\\php\\php5.5.12'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.9 (Win32) PHP/5.5.12 Server at test.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win32) PHP/5.5.12'
+    'SERVER_NAME' => 'test.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/Users/lanjh/Desktop/www/test-yii2-ad/advanced/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Users/lanjh/Desktop/www/test-yii2-ad/advanced/frontend/web'
+    'SERVER_ADMIN' => 'webmaster@test.com'
+    'SCRIPT_FILENAME' => 'C:/Users/lanjh/Desktop/www/test-yii2-ad/advanced/frontend/web/index.php'
+    'REMOTE_PORT' => '49476'
+    'REDIRECT_URL' => '/test/get-data'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/test/get-data'
+    'SCRIPT_NAME' => '/index.php'
+    'PATH_INFO' => '/test/get-data'
+    'PATH_TRANSLATED' => 'redirect:\\index.php\\test\\get-data\\get-data'
+    'PHP_SELF' => '/index.php/test/get-data'
+    'REQUEST_TIME_FLOAT' => 1473215506.182
+    'REQUEST_TIME' => 1473215506
+]
+2016-09-07 05:50:29 [127.0.0.1][-][-][error][yii\base\ErrorException:4] exception 'yii\base\ErrorException' with message 'syntax error, unexpected 's' (T_STRING), expecting function (T_FUNCTION)' in C:\Users\lanjh\Desktop\www\test-yii2-ad\advanced\frontend\models\TestGetData.php:27
+Stack trace:
+#0 C:\Users\lanjh\Desktop\www\test-yii2-ad\advanced\vendor\yiisoft\yii2\base\InlineAction.php(295): ::spl_autoload_call()
+#1 C:\Users\lanjh\Desktop\www\test-yii2-ad\advanced\vendor\yiisoft\yii2\base\InlineAction.php(55): frontend\controllers\TestController->actionGetData()
+#2 C:\Users\lanjh\Desktop\www\test-yii2-ad\advanced\vendor\yiisoft\yii2\base\InlineAction.php(55): ::call_user_func_array:{C:\Users\lanjh\Desktop\www\test-yii2-ad\advanced\vendor\yiisoft\yii2\base\InlineAction.php:55}()
+#3 C:\Users\lanjh\Desktop\www\test-yii2-ad\advanced\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams()
+#4 C:\Users\lanjh\Desktop\www\test-yii2-ad\advanced\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction()
+#5 C:\Users\lanjh\Desktop\www\test-yii2-ad\advanced\vendor\yiisoft\yii2\web\Application.php(87): yii\base\Module->runAction()
+#6 C:\Users\lanjh\Desktop\www\test-yii2-ad\advanced\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest()
+#7 C:\Users\lanjh\Desktop\www\test-yii2-ad\advanced\frontend\web\index.php(19): yii\base\Application->run()
+#8 {main}
+2016-09-07 05:50:29 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    'OUTFOX_SEARCH_USER_ID_NCOO' => '543502407.1064353'
+    'advanced-frontend' => '0gjk5msn6cknbja7sm03r6t5k4'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'test.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => 'OUTFOX_SEARCH_USER_ID_NCOO=543502407.1064353; advanced-frontend=0gjk5msn6cknbja7sm03r6t5k4'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;D:\\Program Files (x86)\\Bitvise SSH Client;D:\\xampp\\php;C:\\Program Files\\nodejs\\;C:\\Program Files\\TortoiseSVN\\bin;C:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files (x86)\\Bitvise SSH Client;C:\\wamp\\bin\\php\\php5.5.12'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.9 (Win32) PHP/5.5.12 Server at test.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win32) PHP/5.5.12'
+    'SERVER_NAME' => 'test.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/Users/lanjh/Desktop/www/test-yii2-ad/advanced/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Users/lanjh/Desktop/www/test-yii2-ad/advanced/frontend/web'
+    'SERVER_ADMIN' => 'webmaster@test.com'
+    'SCRIPT_FILENAME' => 'C:/Users/lanjh/Desktop/www/test-yii2-ad/advanced/frontend/web/index.php'
+    'REMOTE_PORT' => '50312'
+    'REDIRECT_URL' => '/test/get-data'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/test/get-data'
+    'SCRIPT_NAME' => '/index.php'
+    'PATH_INFO' => '/test/get-data'
+    'PATH_TRANSLATED' => 'redirect:\\index.php\\test\\get-data\\get-data'
+    'PHP_SELF' => '/index.php/test/get-data'
+    'REQUEST_TIME_FLOAT' => 1473220229.776
+    'REQUEST_TIME' => 1473220229
+]
+2016-09-07 05:50:40 [127.0.0.1][-][-][error][yii\base\ErrorException:4] exception 'yii\base\ErrorException' with message 'syntax error, unexpected 's' (T_STRING), expecting function (T_FUNCTION)' in C:\Users\lanjh\Desktop\www\test-yii2-ad\advanced\frontend\models\TestGetData.php:27
+Stack trace:
+#0 C:\Users\lanjh\Desktop\www\test-yii2-ad\advanced\vendor\yiisoft\yii2\base\InlineAction.php(295): ::spl_autoload_call()
+#1 C:\Users\lanjh\Desktop\www\test-yii2-ad\advanced\vendor\yiisoft\yii2\base\InlineAction.php(55): frontend\controllers\TestController->actionGetData()
+#2 C:\Users\lanjh\Desktop\www\test-yii2-ad\advanced\vendor\yiisoft\yii2\base\InlineAction.php(55): ::call_user_func_array:{C:\Users\lanjh\Desktop\www\test-yii2-ad\advanced\vendor\yiisoft\yii2\base\InlineAction.php:55}()
+#3 C:\Users\lanjh\Desktop\www\test-yii2-ad\advanced\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams()
+#4 C:\Users\lanjh\Desktop\www\test-yii2-ad\advanced\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction()
+#5 C:\Users\lanjh\Desktop\www\test-yii2-ad\advanced\vendor\yiisoft\yii2\web\Application.php(87): yii\base\Module->runAction()
+#6 C:\Users\lanjh\Desktop\www\test-yii2-ad\advanced\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest()
+#7 C:\Users\lanjh\Desktop\www\test-yii2-ad\advanced\frontend\web\index.php(19): yii\base\Application->run()
+#8 {main}
+2016-09-07 05:50:40 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    'OUTFOX_SEARCH_USER_ID_NCOO' => '543502407.1064353'
+    'advanced-frontend' => '0gjk5msn6cknbja7sm03r6t5k4'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'test.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => 'OUTFOX_SEARCH_USER_ID_NCOO=543502407.1064353; advanced-frontend=0gjk5msn6cknbja7sm03r6t5k4'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;D:\\Program Files (x86)\\Bitvise SSH Client;D:\\xampp\\php;C:\\Program Files\\nodejs\\;C:\\Program Files\\TortoiseSVN\\bin;C:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files (x86)\\Bitvise SSH Client;C:\\wamp\\bin\\php\\php5.5.12'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.9 (Win32) PHP/5.5.12 Server at test.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win32) PHP/5.5.12'
+    'SERVER_NAME' => 'test.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/Users/lanjh/Desktop/www/test-yii2-ad/advanced/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Users/lanjh/Desktop/www/test-yii2-ad/advanced/frontend/web'
+    'SERVER_ADMIN' => 'webmaster@test.com'
+    'SCRIPT_FILENAME' => 'C:/Users/lanjh/Desktop/www/test-yii2-ad/advanced/frontend/web/index.php'
+    'REMOTE_PORT' => '50313'
+    'REDIRECT_URL' => '/test/get-data'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/test/get-data'
+    'SCRIPT_NAME' => '/index.php'
+    'PATH_INFO' => '/test/get-data'
+    'PATH_TRANSLATED' => 'redirect:\\index.php\\test\\get-data\\get-data'
+    'PHP_SELF' => '/index.php/test/get-data'
+    'REQUEST_TIME_FLOAT' => 1473220240.05
+    'REQUEST_TIME' => 1473220240
+]

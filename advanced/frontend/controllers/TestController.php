@@ -294,25 +294,42 @@ class TestController extends Controller
 	{
 		$model = new TestGetData();
 
-		//异步调用：
-		//popen
-		/*$handle = popen('php C:\Users\lanjh\Desktop\www\test-yii2-ad\advanced\frontend\web\test.php', 'r');
+		//异步调用之零：返回AJAX,img
+		//异步调用之一：popen
+		/*$command = 'php '.dirname(dirname(__DIR__)).'\yii test/say';
+		$handle = popen($command, 'r');
 		pclose($handle);*/
-		//curl
-		$url = 'http://test.com/test.php';
+		//异步调用之二：curl
+		/*$url = 'http://test.com/test.php';
 		$ch = curl_init($url);
 		curl_setopt($ch, CURLOPT_TIMEOUT, 1);
-		/*$curl_opt = array(CURLOPT_URL, 'http://test.com/test.php',
-			CURLOPT_RETURNTRANSFER, 1,
-			CURLOPT_TIMEOUT, 10,);
-		curl_setopt_array($ch, $curl_opt);*/
 		curl_exec($ch);//var_dump(curl_error($ch));exit;
-		curl_close($ch);
+		curl_close($ch);*/
+		//异步调用之三：fsockopen（套接字连接
+		//.）
+		/*$fp = fsockopen('test.com', 80, $errno, $errstr, 30);
+		if (!$fp) {
+			echo "$errstr ($errno)<br />\n";
+		} else {
+			$out = "GET /test.php / HTTP/1.1\r\n";
+			$out .= "Host: test.com\r\n";
+			$out .= "Connection: Close\r\n\r\n";
+
+			fwrite($fp, $out);
+			//执行结果
+			while(!feof($fp)) {
+				echo fgets($fp, 128);
+			}
+			fclose($fp);
+		}*/
 
 		//创建表单
-		if ($model->load(Yii::$app->request->post(), 'TestGetData')) {print_r($_FILES);exit;
+		//var_dump(file_get_contents("php://input"), $_FILES, Yii::$app->request->post());exit;
+		$model->uploadFile = UploadedFile::getInstances($model, 'uploadFile');
+		//$model->uploadFile = UploadedFile::getInstancesByName('TestGetData[uploadFile]');
+		if ($model->load(Yii::$app->request->post(), 'TestGetData')) {
 			$model->validate();
-			//$model->uploadFile = UploadedFile::getInstanceByName('uploadFile');
+
 			var_dump($model->attributes);exit;
 		} else {
 			return $this->render('form', [
@@ -320,6 +337,8 @@ class TestController extends Controller
 			]);
 		}
 		//输入验证：声明验证规则-自定义错误信息-验证事件-条件式验证-数据预处理-临时验证-自定义验证器-推迟验证
+		//文件上传
+		//收集列表输入、多模型同时输入
 
 		//yii\widget\ActiveForm, yii\helpers\Html
 	}

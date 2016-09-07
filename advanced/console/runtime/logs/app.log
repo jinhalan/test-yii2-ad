@@ -254,3 +254,407 @@ Stack trace:
     ]
     'argc' => 1
 ]
+2016-09-05 10:51:31 [-][-][-][error][yii\console\Exception] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "test/index".' in C:\Users\lanjh\Desktop\www\test-yii2-ad\advanced\vendor\yiisoft\yii2\base\Module.php:460
+Stack trace:
+#0 C:\Users\lanjh\Desktop\www\test-yii2-ad\advanced\vendor\yiisoft\yii2\console\Application.php(180): yii\base\Module->runAction('test/index', Array)
+#1 C:\Users\lanjh\Desktop\www\test-yii2-ad\advanced\vendor\yiisoft\yii2\console\Application.php(147): yii\console\Application->runAction('test/index', Array)
+#2 C:\Users\lanjh\Desktop\www\test-yii2-ad\advanced\vendor\yiisoft\yii2\base\Application.php(375): yii\console\Application->handleRequest(Object(yii\console\Request))
+#3 C:\Users\lanjh\Desktop\www\test-yii2-ad\advanced\yii(27): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\console\Exception' with message 'Unknown command "test/index".' in C:\Users\lanjh\Desktop\www\test-yii2-ad\advanced\vendor\yiisoft\yii2\console\Application.php:183
+Stack trace:
+#0 C:\Users\lanjh\Desktop\www\test-yii2-ad\advanced\vendor\yiisoft\yii2\console\Application.php(147): yii\console\Application->runAction('test/index', Array)
+#1 C:\Users\lanjh\Desktop\www\test-yii2-ad\advanced\vendor\yiisoft\yii2\base\Application.php(375): yii\console\Application->handleRequest(Object(yii\console\Request))
+#2 C:\Users\lanjh\Desktop\www\test-yii2-ad\advanced\yii(27): yii\base\Application->run()
+#3 {main}
+2016-09-05 10:51:31 [-][-][-][info][application] $_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'APPDATA' => 'C:\\Users\\lanjh\\AppData\\Roaming'
+    'CommonProgramFiles' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'LANJH'
+    'ComSpec' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'FPS_BROWSER_APP_PROFILE_STRING' => 'Internet Explorer'
+    'FPS_BROWSER_USER_PROFILE_STRING' => 'Default'
+    'HOMEDRIVE' => 'C:'
+    'HOMEPATH' => '\\Users\\lanjh'
+    'LOCALAPPDATA' => 'C:\\Users\\lanjh\\AppData\\Local'
+    'LOGONSERVER' => '\\\\DEV'
+    'NUMBER_OF_PROCESSORS' => '4'
+    'OS' => 'Windows_NT'
+    'Path' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;D:\\Program Files (x86)\\Bitvise SSH Client;D:\\xampp\\php;C:\\Program Files\\nodejs\\;C:\\Program Files\\TortoiseSVN\\bin;C:\\wamp\\bin\\php\\php5.5.12;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files (x86)\\Bitvise SSH Client;C:\\Users\\lanjh\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'PHP_COMMAND' => 'php.exe'
+    'PROCESSOR_ARCHITECTURE' => 'x86'
+    'PROCESSOR_ARCHITEW6432' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 60 Stepping 3, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '3c03'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files (x86)'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PROMPT' => '$P$G'
+    'PSModulePath' => 'C:\\WINDOWS\\system32\\WindowsPowerShell\\v1.0\\Modules\\'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SESSIONNAME' => 'Console'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'TEMP' => 'C:\\Users\\lanjh\\AppData\\Local\\Temp'
+    'TMP' => 'C:\\Users\\lanjh\\AppData\\Local\\Temp'
+    'USERDNSDOMAIN' => 'KEMI-TEC.COM'
+    'USERDOMAIN' => 'KEMI-TEC'
+    'USERDOMAIN_ROAMINGPROFILE' => 'KEMI-TEC'
+    'USERNAME' => 'lanjh'
+    'USERPROFILE' => 'C:\\Users\\lanjh'
+    'windir' => 'C:\\WINDOWS'
+    'YII_PATH' => 'C:\\Users\\lanjh\\Desktop\\www\\test-yii2-ad\\advanced\\'
+    'PHP_SELF' => 'C:\\Users\\lanjh\\Desktop\\www\\test-yii2-ad\\advanced\\yii'
+    'SCRIPT_NAME' => 'C:\\Users\\lanjh\\Desktop\\www\\test-yii2-ad\\advanced\\yii'
+    'SCRIPT_FILENAME' => 'C:\\Users\\lanjh\\Desktop\\www\\test-yii2-ad\\advanced\\yii'
+    'PATH_TRANSLATED' => 'C:\\Users\\lanjh\\Desktop\\www\\test-yii2-ad\\advanced\\yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1473065491.2341
+    'REQUEST_TIME' => 1473065491
+    'argv' => [
+        0 => 'C:\\Users\\lanjh\\Desktop\\www\\test-yii2-ad\\advanced\\yii'
+        1 => 'test/index'
+    ]
+    'argc' => 2
+]
+2016-09-05 10:51:40 [-][-][-][error][yii\console\Exception] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "test".' in C:\Users\lanjh\Desktop\www\test-yii2-ad\advanced\vendor\yiisoft\yii2\base\Module.php:460
+Stack trace:
+#0 C:\Users\lanjh\Desktop\www\test-yii2-ad\advanced\vendor\yiisoft\yii2\console\Application.php(180): yii\base\Module->runAction('test', Array)
+#1 C:\Users\lanjh\Desktop\www\test-yii2-ad\advanced\vendor\yiisoft\yii2\console\Application.php(147): yii\console\Application->runAction('test', Array)
+#2 C:\Users\lanjh\Desktop\www\test-yii2-ad\advanced\vendor\yiisoft\yii2\base\Application.php(375): yii\console\Application->handleRequest(Object(yii\console\Request))
+#3 C:\Users\lanjh\Desktop\www\test-yii2-ad\advanced\yii(27): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\console\Exception' with message 'Unknown command "test".' in C:\Users\lanjh\Desktop\www\test-yii2-ad\advanced\vendor\yiisoft\yii2\console\Application.php:183
+Stack trace:
+#0 C:\Users\lanjh\Desktop\www\test-yii2-ad\advanced\vendor\yiisoft\yii2\console\Application.php(147): yii\console\Application->runAction('test', Array)
+#1 C:\Users\lanjh\Desktop\www\test-yii2-ad\advanced\vendor\yiisoft\yii2\base\Application.php(375): yii\console\Application->handleRequest(Object(yii\console\Request))
+#2 C:\Users\lanjh\Desktop\www\test-yii2-ad\advanced\yii(27): yii\base\Application->run()
+#3 {main}
+2016-09-05 10:51:40 [-][-][-][info][application] $_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'APPDATA' => 'C:\\Users\\lanjh\\AppData\\Roaming'
+    'CommonProgramFiles' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'LANJH'
+    'ComSpec' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'FPS_BROWSER_APP_PROFILE_STRING' => 'Internet Explorer'
+    'FPS_BROWSER_USER_PROFILE_STRING' => 'Default'
+    'HOMEDRIVE' => 'C:'
+    'HOMEPATH' => '\\Users\\lanjh'
+    'LOCALAPPDATA' => 'C:\\Users\\lanjh\\AppData\\Local'
+    'LOGONSERVER' => '\\\\DEV'
+    'NUMBER_OF_PROCESSORS' => '4'
+    'OS' => 'Windows_NT'
+    'Path' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;D:\\Program Files (x86)\\Bitvise SSH Client;D:\\xampp\\php;C:\\Program Files\\nodejs\\;C:\\Program Files\\TortoiseSVN\\bin;C:\\wamp\\bin\\php\\php5.5.12;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files (x86)\\Bitvise SSH Client;C:\\Users\\lanjh\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'PHP_COMMAND' => 'php.exe'
+    'PROCESSOR_ARCHITECTURE' => 'x86'
+    'PROCESSOR_ARCHITEW6432' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 60 Stepping 3, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '3c03'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files (x86)'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PROMPT' => '$P$G'
+    'PSModulePath' => 'C:\\WINDOWS\\system32\\WindowsPowerShell\\v1.0\\Modules\\'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SESSIONNAME' => 'Console'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'TEMP' => 'C:\\Users\\lanjh\\AppData\\Local\\Temp'
+    'TMP' => 'C:\\Users\\lanjh\\AppData\\Local\\Temp'
+    'USERDNSDOMAIN' => 'KEMI-TEC.COM'
+    'USERDOMAIN' => 'KEMI-TEC'
+    'USERDOMAIN_ROAMINGPROFILE' => 'KEMI-TEC'
+    'USERNAME' => 'lanjh'
+    'USERPROFILE' => 'C:\\Users\\lanjh'
+    'windir' => 'C:\\WINDOWS'
+    'YII_PATH' => 'C:\\Users\\lanjh\\Desktop\\www\\test-yii2-ad\\advanced\\'
+    'PHP_SELF' => 'C:\\Users\\lanjh\\Desktop\\www\\test-yii2-ad\\advanced\\yii'
+    'SCRIPT_NAME' => 'C:\\Users\\lanjh\\Desktop\\www\\test-yii2-ad\\advanced\\yii'
+    'SCRIPT_FILENAME' => 'C:\\Users\\lanjh\\Desktop\\www\\test-yii2-ad\\advanced\\yii'
+    'PATH_TRANSLATED' => 'C:\\Users\\lanjh\\Desktop\\www\\test-yii2-ad\\advanced\\yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1473065500.6677
+    'REQUEST_TIME' => 1473065500
+    'argv' => [
+        0 => 'C:\\Users\\lanjh\\Desktop\\www\\test-yii2-ad\\advanced\\yii'
+        1 => 'test'
+    ]
+    'argc' => 2
+]
+2016-09-05 10:53:31 [-][-][-][error][yii\console\Exception] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "test/index".' in C:\Users\lanjh\Desktop\www\test-yii2-ad\advanced\vendor\yiisoft\yii2\base\Module.php:460
+Stack trace:
+#0 C:\Users\lanjh\Desktop\www\test-yii2-ad\advanced\vendor\yiisoft\yii2\console\Application.php(180): yii\base\Module->runAction('test/index', Array)
+#1 C:\Users\lanjh\Desktop\www\test-yii2-ad\advanced\vendor\yiisoft\yii2\console\Application.php(147): yii\console\Application->runAction('test/index', Array)
+#2 C:\Users\lanjh\Desktop\www\test-yii2-ad\advanced\vendor\yiisoft\yii2\base\Application.php(375): yii\console\Application->handleRequest(Object(yii\console\Request))
+#3 C:\Users\lanjh\Desktop\www\test-yii2-ad\advanced\yii(27): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\console\Exception' with message 'Unknown command "test/index".' in C:\Users\lanjh\Desktop\www\test-yii2-ad\advanced\vendor\yiisoft\yii2\console\Application.php:183
+Stack trace:
+#0 C:\Users\lanjh\Desktop\www\test-yii2-ad\advanced\vendor\yiisoft\yii2\console\Application.php(147): yii\console\Application->runAction('test/index', Array)
+#1 C:\Users\lanjh\Desktop\www\test-yii2-ad\advanced\vendor\yiisoft\yii2\base\Application.php(375): yii\console\Application->handleRequest(Object(yii\console\Request))
+#2 C:\Users\lanjh\Desktop\www\test-yii2-ad\advanced\yii(27): yii\base\Application->run()
+#3 {main}
+2016-09-05 10:53:31 [-][-][-][info][application] $_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'APPDATA' => 'C:\\Users\\lanjh\\AppData\\Roaming'
+    'CommonProgramFiles' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'LANJH'
+    'ComSpec' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'FPS_BROWSER_APP_PROFILE_STRING' => 'Internet Explorer'
+    'FPS_BROWSER_USER_PROFILE_STRING' => 'Default'
+    'HOMEDRIVE' => 'C:'
+    'HOMEPATH' => '\\Users\\lanjh'
+    'LOCALAPPDATA' => 'C:\\Users\\lanjh\\AppData\\Local'
+    'LOGONSERVER' => '\\\\DEV'
+    'NUMBER_OF_PROCESSORS' => '4'
+    'OS' => 'Windows_NT'
+    'Path' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;D:\\Program Files (x86)\\Bitvise SSH Client;D:\\xampp\\php;C:\\Program Files\\nodejs\\;C:\\Program Files\\TortoiseSVN\\bin;C:\\wamp\\bin\\php\\php5.5.12;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files (x86)\\Bitvise SSH Client;C:\\Users\\lanjh\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'PHP_COMMAND' => 'php.exe'
+    'PROCESSOR_ARCHITECTURE' => 'x86'
+    'PROCESSOR_ARCHITEW6432' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 60 Stepping 3, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '3c03'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files (x86)'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PROMPT' => '$P$G'
+    'PSModulePath' => 'C:\\WINDOWS\\system32\\WindowsPowerShell\\v1.0\\Modules\\'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SESSIONNAME' => 'Console'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'TEMP' => 'C:\\Users\\lanjh\\AppData\\Local\\Temp'
+    'TMP' => 'C:\\Users\\lanjh\\AppData\\Local\\Temp'
+    'USERDNSDOMAIN' => 'KEMI-TEC.COM'
+    'USERDOMAIN' => 'KEMI-TEC'
+    'USERDOMAIN_ROAMINGPROFILE' => 'KEMI-TEC'
+    'USERNAME' => 'lanjh'
+    'USERPROFILE' => 'C:\\Users\\lanjh'
+    'windir' => 'C:\\WINDOWS'
+    'YII_PATH' => 'C:\\Users\\lanjh\\Desktop\\www\\test-yii2-ad\\advanced\\'
+    'PHP_SELF' => 'C:\\Users\\lanjh\\Desktop\\www\\test-yii2-ad\\advanced\\yii'
+    'SCRIPT_NAME' => 'C:\\Users\\lanjh\\Desktop\\www\\test-yii2-ad\\advanced\\yii'
+    'SCRIPT_FILENAME' => 'C:\\Users\\lanjh\\Desktop\\www\\test-yii2-ad\\advanced\\yii'
+    'PATH_TRANSLATED' => 'C:\\Users\\lanjh\\Desktop\\www\\test-yii2-ad\\advanced\\yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1473065611.0009
+    'REQUEST_TIME' => 1473065611
+    'argv' => [
+        0 => 'C:\\Users\\lanjh\\Desktop\\www\\test-yii2-ad\\advanced\\yii'
+        1 => 'test/index'
+    ]
+    'argc' => 2
+]
+2016-09-05 10:56:26 [-][-][-][error][yii\console\Exception] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: test/saty' in C:\Users\lanjh\Desktop\www\test-yii2-ad\advanced\vendor\yiisoft\yii2\base\Controller.php:125
+Stack trace:
+#0 C:\Users\lanjh\Desktop\www\test-yii2-ad\advanced\vendor\yiisoft\yii2\console\Controller.php(119): yii\base\Controller->runAction('saty', Array)
+#1 C:\Users\lanjh\Desktop\www\test-yii2-ad\advanced\vendor\yiisoft\yii2\base\Module.php(454): yii\console\Controller->runAction('saty', Array)
+#2 C:\Users\lanjh\Desktop\www\test-yii2-ad\advanced\vendor\yiisoft\yii2\console\Application.php(180): yii\base\Module->runAction('test/saty', Array)
+#3 C:\Users\lanjh\Desktop\www\test-yii2-ad\advanced\vendor\yiisoft\yii2\console\Application.php(147): yii\console\Application->runAction('test/saty', Array)
+#4 C:\Users\lanjh\Desktop\www\test-yii2-ad\advanced\vendor\yiisoft\yii2\base\Application.php(375): yii\console\Application->handleRequest(Object(yii\console\Request))
+#5 C:\Users\lanjh\Desktop\www\test-yii2-ad\advanced\yii(27): yii\base\Application->run()
+#6 {main}
+
+Next exception 'yii\console\Exception' with message 'Unknown command "test/saty".' in C:\Users\lanjh\Desktop\www\test-yii2-ad\advanced\vendor\yiisoft\yii2\console\Application.php:183
+Stack trace:
+#0 C:\Users\lanjh\Desktop\www\test-yii2-ad\advanced\vendor\yiisoft\yii2\console\Application.php(147): yii\console\Application->runAction('test/saty', Array)
+#1 C:\Users\lanjh\Desktop\www\test-yii2-ad\advanced\vendor\yiisoft\yii2\base\Application.php(375): yii\console\Application->handleRequest(Object(yii\console\Request))
+#2 C:\Users\lanjh\Desktop\www\test-yii2-ad\advanced\yii(27): yii\base\Application->run()
+#3 {main}
+2016-09-05 10:56:26 [-][-][-][info][application] $_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'APPDATA' => 'C:\\Users\\lanjh\\AppData\\Roaming'
+    'CommonProgramFiles' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'LANJH'
+    'ComSpec' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'FPS_BROWSER_APP_PROFILE_STRING' => 'Internet Explorer'
+    'FPS_BROWSER_USER_PROFILE_STRING' => 'Default'
+    'HOMEDRIVE' => 'C:'
+    'HOMEPATH' => '\\Users\\lanjh'
+    'LOCALAPPDATA' => 'C:\\Users\\lanjh\\AppData\\Local'
+    'LOGONSERVER' => '\\\\DEV'
+    'NUMBER_OF_PROCESSORS' => '4'
+    'OS' => 'Windows_NT'
+    'Path' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;D:\\Program Files (x86)\\Bitvise SSH Client;D:\\xampp\\php;C:\\Program Files\\nodejs\\;C:\\Program Files\\TortoiseSVN\\bin;C:\\wamp\\bin\\php\\php5.5.12;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files (x86)\\Bitvise SSH Client;C:\\Users\\lanjh\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'PHP_COMMAND' => 'php.exe'
+    'PROCESSOR_ARCHITECTURE' => 'x86'
+    'PROCESSOR_ARCHITEW6432' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 60 Stepping 3, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '3c03'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files (x86)'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PROMPT' => '$P$G'
+    'PSModulePath' => 'C:\\WINDOWS\\system32\\WindowsPowerShell\\v1.0\\Modules\\'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SESSIONNAME' => 'Console'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'TEMP' => 'C:\\Users\\lanjh\\AppData\\Local\\Temp'
+    'TMP' => 'C:\\Users\\lanjh\\AppData\\Local\\Temp'
+    'USERDNSDOMAIN' => 'KEMI-TEC.COM'
+    'USERDOMAIN' => 'KEMI-TEC'
+    'USERDOMAIN_ROAMINGPROFILE' => 'KEMI-TEC'
+    'USERNAME' => 'lanjh'
+    'USERPROFILE' => 'C:\\Users\\lanjh'
+    'windir' => 'C:\\WINDOWS'
+    'YII_PATH' => 'C:\\Users\\lanjh\\Desktop\\www\\test-yii2-ad\\advanced\\'
+    'PHP_SELF' => 'C:\\Users\\lanjh\\Desktop\\www\\test-yii2-ad\\advanced\\yii'
+    'SCRIPT_NAME' => 'C:\\Users\\lanjh\\Desktop\\www\\test-yii2-ad\\advanced\\yii'
+    'SCRIPT_FILENAME' => 'C:\\Users\\lanjh\\Desktop\\www\\test-yii2-ad\\advanced\\yii'
+    'PATH_TRANSLATED' => 'C:\\Users\\lanjh\\Desktop\\www\\test-yii2-ad\\advanced\\yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1473065786.8231
+    'REQUEST_TIME' => 1473065786
+    'argv' => [
+        0 => 'C:\\Users\\lanjh\\Desktop\\www\\test-yii2-ad\\advanced\\yii'
+        1 => 'test/saty'
+    ]
+    'argc' => 2
+]
+2016-09-05 10:59:24 [-][-][-][error][yii\console\Exception] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "test\say".' in C:\Users\lanjh\Desktop\www\test-yii2-ad\advanced\vendor\yiisoft\yii2\base\Module.php:460
+Stack trace:
+#0 C:\Users\lanjh\Desktop\www\test-yii2-ad\advanced\vendor\yiisoft\yii2\console\Application.php(180): yii\base\Module->runAction('test\\say', Array)
+#1 C:\Users\lanjh\Desktop\www\test-yii2-ad\advanced\vendor\yiisoft\yii2\console\Application.php(147): yii\console\Application->runAction('test\\say', Array)
+#2 C:\Users\lanjh\Desktop\www\test-yii2-ad\advanced\vendor\yiisoft\yii2\base\Application.php(375): yii\console\Application->handleRequest(Object(yii\console\Request))
+#3 C:\Users\lanjh\Desktop\www\test-yii2-ad\advanced\yii(27): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\console\Exception' with message 'Unknown command "test\say".' in C:\Users\lanjh\Desktop\www\test-yii2-ad\advanced\vendor\yiisoft\yii2\console\Application.php:183
+Stack trace:
+#0 C:\Users\lanjh\Desktop\www\test-yii2-ad\advanced\vendor\yiisoft\yii2\console\Application.php(147): yii\console\Application->runAction('test\\say', Array)
+#1 C:\Users\lanjh\Desktop\www\test-yii2-ad\advanced\vendor\yiisoft\yii2\base\Application.php(375): yii\console\Application->handleRequest(Object(yii\console\Request))
+#2 C:\Users\lanjh\Desktop\www\test-yii2-ad\advanced\yii(27): yii\base\Application->run()
+#3 {main}
+2016-09-05 10:59:24 [-][-][-][info][application] $_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'APPDATA' => 'C:\\WINDOWS\\system32\\config\\systemprofile\\AppData\\Roaming'
+    'CommonProgramFiles' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'LANJH'
+    'ComSpec' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'LOCALAPPDATA' => 'C:\\WINDOWS\\system32\\config\\systemprofile\\AppData\\Local'
+    'NUMBER_OF_PROCESSORS' => '4'
+    'OS' => 'Windows_NT'
+    'Path' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;D:\\Program Files (x86)\\Bitvise SSH Client;D:\\xampp\\php;C:\\Program Files\\nodejs\\;C:\\Program Files\\TortoiseSVN\\bin;C:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files (x86)\\Bitvise SSH Client;C:\\wamp\\bin\\php\\php5.5.12'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'PROCESSOR_ARCHITECTURE' => 'x86'
+    'PROCESSOR_ARCHITEW6432' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 60 Stepping 3, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '3c03'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files (x86)'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PROMPT' => '$P$G'
+    'PSModulePath' => 'C:\\WINDOWS\\system32\\WindowsPowerShell\\v1.0\\Modules\\'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'TEMP' => 'C:\\WINDOWS\\TEMP'
+    'TMP' => 'C:\\WINDOWS\\TEMP'
+    'USERDOMAIN' => 'KEMI-TEC'
+    'USERNAME' => 'LANJH$'
+    'USERPROFILE' => 'C:\\WINDOWS\\system32\\config\\systemprofile'
+    'windir' => 'C:\\WINDOWS'
+    'AP_PARENT_PID' => '1368'
+    'PHP_SELF' => 'C:\\Users\\lanjh\\Desktop\\www\\test-yii2-ad\\advanced\\yii'
+    'SCRIPT_NAME' => 'C:\\Users\\lanjh\\Desktop\\www\\test-yii2-ad\\advanced\\yii'
+    'SCRIPT_FILENAME' => 'C:\\Users\\lanjh\\Desktop\\www\\test-yii2-ad\\advanced\\yii'
+    'PATH_TRANSLATED' => 'C:\\Users\\lanjh\\Desktop\\www\\test-yii2-ad\\advanced\\yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1473065964.0413
+    'REQUEST_TIME' => 1473065964
+    'argv' => [
+        0 => 'C:\\Users\\lanjh\\Desktop\\www\\test-yii2-ad\\advanced\\yii'
+        1 => 'test\\say'
+    ]
+    'argc' => 2
+]
+2016-09-05 11:00:05 [-][-][-][error][yii\console\Exception] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "test\say".' in C:\Users\lanjh\Desktop\www\test-yii2-ad\advanced\vendor\yiisoft\yii2\base\Module.php:460
+Stack trace:
+#0 C:\Users\lanjh\Desktop\www\test-yii2-ad\advanced\vendor\yiisoft\yii2\console\Application.php(180): yii\base\Module->runAction('test\\say', Array)
+#1 C:\Users\lanjh\Desktop\www\test-yii2-ad\advanced\vendor\yiisoft\yii2\console\Application.php(147): yii\console\Application->runAction('test\\say', Array)
+#2 C:\Users\lanjh\Desktop\www\test-yii2-ad\advanced\vendor\yiisoft\yii2\base\Application.php(375): yii\console\Application->handleRequest(Object(yii\console\Request))
+#3 C:\Users\lanjh\Desktop\www\test-yii2-ad\advanced\yii(27): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\console\Exception' with message 'Unknown command "test\say".' in C:\Users\lanjh\Desktop\www\test-yii2-ad\advanced\vendor\yiisoft\yii2\console\Application.php:183
+Stack trace:
+#0 C:\Users\lanjh\Desktop\www\test-yii2-ad\advanced\vendor\yiisoft\yii2\console\Application.php(147): yii\console\Application->runAction('test\\say', Array)
+#1 C:\Users\lanjh\Desktop\www\test-yii2-ad\advanced\vendor\yiisoft\yii2\base\Application.php(375): yii\console\Application->handleRequest(Object(yii\console\Request))
+#2 C:\Users\lanjh\Desktop\www\test-yii2-ad\advanced\yii(27): yii\base\Application->run()
+#3 {main}
+2016-09-05 11:00:05 [-][-][-][info][application] $_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'APPDATA' => 'C:\\WINDOWS\\system32\\config\\systemprofile\\AppData\\Roaming'
+    'CommonProgramFiles' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'LANJH'
+    'ComSpec' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'LOCALAPPDATA' => 'C:\\WINDOWS\\system32\\config\\systemprofile\\AppData\\Local'
+    'NUMBER_OF_PROCESSORS' => '4'
+    'OS' => 'Windows_NT'
+    'Path' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;D:\\Program Files (x86)\\Bitvise SSH Client;D:\\xampp\\php;C:\\Program Files\\nodejs\\;C:\\Program Files\\TortoiseSVN\\bin;C:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files (x86)\\Bitvise SSH Client;C:\\wamp\\bin\\php\\php5.5.12'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'PROCESSOR_ARCHITECTURE' => 'x86'
+    'PROCESSOR_ARCHITEW6432' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 60 Stepping 3, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '3c03'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files (x86)'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PROMPT' => '$P$G'
+    'PSModulePath' => 'C:\\WINDOWS\\system32\\WindowsPowerShell\\v1.0\\Modules\\'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'TEMP' => 'C:\\WINDOWS\\TEMP'
+    'TMP' => 'C:\\WINDOWS\\TEMP'
+    'USERDOMAIN' => 'KEMI-TEC'
+    'USERNAME' => 'LANJH$'
+    'USERPROFILE' => 'C:\\WINDOWS\\system32\\config\\systemprofile'
+    'windir' => 'C:\\WINDOWS'
+    'AP_PARENT_PID' => '1368'
+    'PHP_SELF' => 'C:\\Users\\lanjh\\Desktop\\www\\test-yii2-ad\\advanced\\yii'
+    'SCRIPT_NAME' => 'C:\\Users\\lanjh\\Desktop\\www\\test-yii2-ad\\advanced\\yii'
+    'SCRIPT_FILENAME' => 'C:\\Users\\lanjh\\Desktop\\www\\test-yii2-ad\\advanced\\yii'
+    'PATH_TRANSLATED' => 'C:\\Users\\lanjh\\Desktop\\www\\test-yii2-ad\\advanced\\yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1473066005.6475
+    'REQUEST_TIME' => 1473066005
+    'argv' => [
+        0 => 'C:\\Users\\lanjh\\Desktop\\www\\test-yii2-ad\\advanced\\yii'
+        1 => 'test\\say'
+    ]
+    'argc' => 2
+]

@@ -35,7 +35,7 @@ class TestGetData extends Model
 			}"],//如果 country 的值为 USA 设为必须
 			['username', 'default'],//如果为空，设为 null
 			['email', 'default', 'value' => 'jintian@qq.com'],//如果为空，设为 jintian@qq.com
-			//['uploadFile', 'image'],
+			['uploadFile', 'file', 'skipOnEmpty' => true, 'extensions' => 'png, jpg', 'maxFiles' => 4],
 			[['uploadFile', 'items', 'category', 'country'], 'safe'],
 		];
 	}
