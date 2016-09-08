@@ -1,13 +1,17 @@
 <?php
 namespace frontend\controllers;
 
+use common\models\User;
 use frontend\components\TestBehavior;
 use frontend\components\TestEvent;
 use frontend\models\TestGetData;
 use Yii;
 use yii\base\ErrorException;
+use yii\data\ActiveDataProvider;
 use yii\db\Connection;
 use yii\db\Query;
+use yii\grid\GridView;
+use yii\grid\SerialColumn;
 use yii\web\Controller;
 use yii\web\UploadedFile;
 
@@ -341,6 +345,26 @@ class TestController extends Controller
 		//收集列表输入、多模型同时输入
 
 		//yii\widget\ActiveForm, yii\helpers\Html
+	}
+
+	public function actionDisplayData()
+	{
+		/*$dataProvider = new ActiveDataProvider([
+			'query' => User::find(),
+			'pagination' => [
+				'pageSize' => 20,
+			],
+		]);
+		echo GridView::widget([
+			'dataProvider' => $dataProvider,
+			'columns' => [
+				[
+					'class' => 'yii\grid\ActionColumn',
+				],
+			]
+		]);exit;*/
+		//显示数据：格式化、分页、排序
+		return $this->render('displayData');
 	}
 
 }
