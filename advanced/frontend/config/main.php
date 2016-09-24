@@ -52,8 +52,8 @@ return [
 	        //'exceptionView' => '@frontend/views/test/error.php'//自定义错误显示
         ],
         'urlManager' => [
-            'enablePrettyUrl' => true,//两种路由模式
-            'showScriptName' => false,
+            //'enablePrettyUrl' => true,//两种路由模式
+            //'showScriptName' => false,
 	        //'enableStrictParsing' => true,//严格解析路由
 	        //'suffix' => '.html',//后缀名
             'rules' => [

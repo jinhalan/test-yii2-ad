@@ -7,4 +7,4 @@ RewriteCond $1 !^(index\.php|images|robots\.txt)
 rewritebase /
 RewriteRule ^(.*)$ index.php/$1 [L]
 
-XSendFile on
+#XSendFile on
